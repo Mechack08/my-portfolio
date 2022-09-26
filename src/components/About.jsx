@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAward, FaUsers, FaProjectDiagram } from "react-icons/fa";
+import IMG1 from "../assets/about-8pro.JPG";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
       </div>
       <div className="content">
         <div className="image">
-          <img src="./about-8pro.jpg" alt="Mechackmakasi" />
+          <img src={IMG1} alt="Mechackmakasi" />
         </div>
         <div className="description">
           <article>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaTwitter, FaGithub, FaDribbble } from "react-icons/fa";
 import CV from "../assets/cv/Cv 8pro English.pdf";
+import IMG from "../assets/8pro-2-removebg-2.png";
 
 const Banner = () => {
   return (
@@ -49,7 +50,7 @@ const Banner = () => {
         </p>
       </div>
       <div className="picture">
-        <img src="./8pro-2-removebg-2.png" alt="kambalemechack" />
+        <img src={IMG} alt="kambalemechack" />
       </div>
       <div className="buttons">
         <button>
