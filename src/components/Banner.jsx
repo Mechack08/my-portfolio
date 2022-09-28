@@ -38,7 +38,7 @@ const Banner = () => {
       </div>
       <div className="infos">
         <span className="function">
-          <span>Web Dev. Fullstack</span>
+          <span>Web Dev. Frontend</span>
           {/* <span>Web Designer</span> */}
         </span>
         <span className="names">Kambale Mechack</span>

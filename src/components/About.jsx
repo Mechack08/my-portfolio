@@ -35,7 +35,7 @@ const About = () => {
             </div>
           </article>
           <p>
-            Fullstact web developper and Web Designer. I've Finished my studies
+            Frontend web developper and Web Designer. I've Finished my studies
             on december 2020 in Computer science at Adventist University of
             Lukanga. I took several online courses to improve and deepen my
             knowledge in computer science. Udemy has been one of my favorite

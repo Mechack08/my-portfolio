@@ -85,7 +85,7 @@ export const codeSkills = [
   {
     _id: "10",
     subject: "MongoDB",
-    level: "64",
+    level: "78",
   },
 ];
 
@@ -103,7 +103,7 @@ export const designSkills = [
   {
     _id: "13",
     subject: "PhotoShop",
-    level: "47",
+    level: "65",
   },
 ];
 

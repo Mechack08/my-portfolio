@@ -5,14 +5,14 @@ const Items = ({ type, data }) => {
     <div className="items-container">
       <span className="title-underline">{type}</span>
       <div className="items">
-        {data.map(({ _id, title, url, img }) => {
+        {data.map(({ _id, title, link, img }) => {
           return (
             <div className="item" key={_id}>
               <img src={img} alt={title} />
               <div className="item-detail">
                 <span>{title}</span>
-                {url && (
-                  <a href={url} target="_blank" rel="noopener noreferrer">
+                {link && (
+                  <a href={link} target="_blank" rel="noopener noreferrer">
                     Visit
                   </a>
                 )}
