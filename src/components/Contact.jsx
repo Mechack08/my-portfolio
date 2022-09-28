@@ -28,9 +28,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const service_id = process.env.REACT_APP_SERVICE_ID;
-    const template_id = process.env.REACT_APP_TEMPLATE_ID;
-    const public_key = process.env.REACT_APP_PUBLIC_KEY;
+    const service_id = "service_nc7wy1c";
+    const template_id = "template_jsy3mif";
+    const public_key = "user_L1YG5i3RjdX5g5NioYxsE";
 
     emailjs
       .sendForm(service_id, template_id, form.current, public_key)
@@ -51,7 +51,9 @@ const Contact = () => {
         (error) => {
           setAlertMessage({
             class: "alert fail",
-            text: "Something went wrong! Message not sent. Check your Network then try again",
+            text:
+              "Something went wrong! Message not sent. Check your Network then try again" +
+              error,
           });
           setBtnSend({ class: "", title: "Send" });
         }
@@ -65,6 +67,8 @@ const Contact = () => {
         }, 6000);
       });
   };
+
+  console.log(alertMessage);
 
   useEffect(() => {
     if (
